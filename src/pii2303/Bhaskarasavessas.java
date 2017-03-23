@@ -8,14 +8,14 @@ public class Bhaskarasavessas {
            Scanner leitor = new Scanner (System.in);
            
            double x1,x2, a, b, c, produto, soma;
-           
+                      
            //ENTRADAS
            System.out.println("x1: ");
-           x1 = leitor.nextDouble();
+           x1 = Double.parseDouble(leitor.nextLine());
            System.out.println("x2: ");
-           x2 = leitor.nextDouble();
+           x2 = Double.parseDouble(leitor.nextLine());
            System.out.println("c: ");
-           c = leitor.nextDouble();
+           c = Double.parseDouble(leitor.nextLine());
            
            //PROCESSAMENTO
            soma = x1 + x2;
